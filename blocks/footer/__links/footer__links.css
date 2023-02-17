@@ -1,0 +1,9 @@
+.footer__links {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+  }
+
+  .footer-links:last-child {
+    margin: 0;
+  }

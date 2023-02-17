@@ -1,0 +1,8 @@
+.page__section-grid {
+    max-width: 1184px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
+    gap: 16px;
+    min-height: 213px;
+    margin: 0 auto;
+  }

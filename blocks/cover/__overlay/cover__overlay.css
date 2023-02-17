@@ -1,0 +1,10 @@
+.cover__overlay {
+    background-image: url('../../../images/cover-trains.jpg');
+    width: 100%;
+    min-height: 740px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    opacity: 0.3;
+    z-index: 0;
+  }
