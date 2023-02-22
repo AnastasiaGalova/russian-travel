@@ -6,3 +6,21 @@
     min-height: 213px;
     margin: 0 auto;
   }
+
+  @media screen and (max-width: 1279px) {
+    .page__section-grid {
+      gap: 14px;
+    }
+  }
+
+  @media screen and (max-width: 1023px) {
+    .page__section-grid {
+      gap: 16px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .page__section-grid {
+      gap: 12px;
+    }
+  }

@@ -1,3 +1,9 @@
 .website {
-    align-self: end;
+  align-self: end;
+}
+
+@media screen and (max-width:767px) {
+  .website {
+    padding: 0 calc(16px + (24 - 16) * (100vw - 320px)/(767 - 320));
   }
+}

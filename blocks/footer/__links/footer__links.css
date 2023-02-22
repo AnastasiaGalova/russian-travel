@@ -1,9 +1,12 @@
 .footer__links {
-    padding-left: 0;
-    list-style: none;
-    display: flex;
-  }
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
 
-  .footer-links:last-child {
-    margin: 0;
+@media screen and (max-width: 767px) {
+  .footer__links {
+    flex-direction: column;
   }
+}

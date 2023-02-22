@@ -1,7 +1,28 @@
 .page__section-intro {
-    max-width: 690px;
-    margin-left: 148px;
-    margin-top: 92px;
-    margin-bottom: 92px;
+    margin: 92px auto;
     color:#FFF;
+    max-width: 984px; 
+  }
+
+  @media screen and (max-width: 1023px) {
+    .page__section-intro {
+      margin: 88px auto;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .page__section-intro {
+      margin: 64px auto;
+    }
+  }
+
+
+  .intro__div {
+    max-width:690px;
+  }
+
+  @media screen and (max-width: 1023px) {
+    .intro__div {
+      max-width: calc(720px + (690 - 720) * (100vw - 768px)/(1023 - 768));
+    }
   }

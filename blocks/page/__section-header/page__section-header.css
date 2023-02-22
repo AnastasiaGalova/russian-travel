@@ -1,8 +1,16 @@
 .page__section-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1184px;
-    min-height: 80px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  max-width: 1184px;
+  min-height: 52px;
+  margin: 0 auto;
+  padding-top: 28px;
+}
+
+@media screen and (max-width: 767px) {
+  .page__section-header {
+    min-height: 42px;
+    padding-top: 16px;
   }
+}
