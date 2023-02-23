@@ -1,0 +1,9 @@
+.intro__wrapper {
+    max-width: 690px;
+}
+
+@media screen and (max-width: 1023px) {
+    .intro__wrapper {
+        max-width: calc(720px + (690 - 720) * (100vw - 768px)/(1023 - 768));
+    }
+}
