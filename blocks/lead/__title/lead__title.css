@@ -19,9 +19,3 @@
     line-height: 1.1;
   }
 }
-
-@media screen and (max-width: 400px) {
-  .lead__subtitle {
-    max-width: 288px;
-  }
-}

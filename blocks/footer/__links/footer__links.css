@@ -3,10 +3,14 @@
   margin: 0;
   list-style: none;
   display: flex;
+  justify-content: space-between;
+  min-width: 465px;
 }
 
 @media screen and (max-width: 767px) {
   .footer__links {
     flex-direction: column;
+    min-width: unset;
+    min-height: 248px;
   }
 }

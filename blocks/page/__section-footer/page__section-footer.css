@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 1023px) {
   .page__section-footer {
-      padding: 0 calc(24px + (48 - 24) * (100vw - 768px)/(1023 - 768)) 24px;
+    padding: 0 calc(24px + (48 - 24) * (100vw - 768px)/(1023 - 768)) 24px;
   }
 }
 

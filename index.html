@@ -15,7 +15,7 @@
         <img class="header__logo" src="./images/header-logo.svg" alt="Логотип">
         <div class="header__lang-links">
           <a class="header__lang-link header__lang-link_active" href="#" target="_self">Ru</a>
-          <a class="header__lang-link header__lang-link_disabled" href="#" target="_blank">En</a>
+          <a class="header__lang-link" href="#" target="_blank">En</a>
         </div>
       </header>
       <main>
@@ -55,7 +55,7 @@
             </ul>
           </div>
         </section>
-        <section class="photo-grid page__section-grid">
+        <section class="photo-grid page__section-grid" aria-label="Фото русских пейзажей">
           <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Вид из поезда">
           <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Cнежные вершины гор">
           <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="Собака на сене">
@@ -71,7 +71,7 @@
         </section>
         <section class="places page__section-places">
           <div class="place">
-            <h3 class="place__title">Куршская коса</h3>
+            <h2 class="place__title">Куршская коса</h2>
             <div class="website">
               <p class="website__url-heading">url</p>
               <a href="http://park-kosa.ru" target="_blank" class="website__link">park-kosa.ru</a>
@@ -89,7 +89,7 @@
             </div>
           </div>
           <div class="place">
-            <h3 class="place__title">Кольский</h3>
+            <h2 class="place__title">Кольский</h2>
             <div class="website">
               <p class="website__url-heading">url</p>
               <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank"
@@ -109,7 +109,7 @@
             </div>
           </div>
           <div class="place">
-            <h3 class="place__title">Алтай</h3>
+            <h2 class="place__title">Алтай</h2>
             <div class="website">
               <p class="website__url-heading">url</p>
               <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank" class="website__link">YouTube</a>
@@ -127,7 +127,7 @@
             </div>
           </div>
           <div class="place">
-            <h3 class="place__title">Зимний Байкал</h3>
+            <h2 class="place__title">Зимний Байкал</h2>
             <div class="website">
               <p class="website__url-heading">url</p>
               <a href="https://vk.com/baikalmile" target="_blank" class="website__link">https://vk.com/baikalmile</a>
@@ -145,37 +145,43 @@
             </div>
           </div>
           <div class="place">
-            <h3 class="place__title">Карелия</h3>
+            <h2 class="place__title">Карелия</h2>
             <div class="website">
               <p class="website__url-heading">url</p>
               <a href="http://vodlozero.ru/" target="_blank" class="website__link">http://vodlozero.ru/</a>
             </div>
             <img class="place__image" src="./images/place-karelia.jpg" alt="Карелия">
-            <p class="place__paragraph">Сибирь заканчивается не&nbsp;на&nbsp;Урале, а&nbsp;в&nbsp;Карелии: образующая
-              тайгу сибирская лиственница не&nbsp;растёт западнее Водлозера. Зато здесь она вымахивает на
-              30&nbsp;метров&nbsp;&mdash; леса карельских национальных парков из-за непроходимых болот никогда
-              не&nbsp;знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к&nbsp;живому существу,
-              видевшему солнце раньше, чем увидал его Иван Грозный.
-              В&nbsp;девственном лесу на&nbsp;сотню километров не встретишь тропы. А&nbsp;на&nbsp;редких тропинках
-              деревья
-              в&nbsp;паре метров от&nbsp;земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
+            <div>
+              <p class="place__paragraph">Сибирь заканчивается не&nbsp;на&nbsp;Урале, а&nbsp;в&nbsp;Карелии: образующая
+                тайгу сибирская лиственница не&nbsp;растёт западнее Водлозера. Зато здесь она вымахивает на
+                30&nbsp;метров&nbsp;&mdash; леса карельских национальных парков из-за непроходимых болот никогда
+                не&nbsp;знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к&nbsp;живому
+                существу,
+                видевшему солнце раньше, чем увидал его Иван Грозный.
+                В&nbsp;девственном лесу на&nbsp;сотню километров не встретишь тропы. А&nbsp;на&nbsp;редких тропинках
+                деревья
+                в&nbsp;паре метров от&nbsp;земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
+            </div>
           </div>
         </section>
         <section class="cover page__section-cover">
-          <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
-          <p class="cover__subtitle">По&nbsp;мотивам&nbsp;учебной&nbsp;темы о&nbsp;Транссибе &mdash; путешествие
-            от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.</p>
-          <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__overlay"></a>
+          <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__overlay">
+            <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
+            <p class="cover__subtitle">По&nbsp;мотивам&nbsp;учебной&nbsp;темы о&nbsp;Транссибе &mdash; путешествие
+              от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.</p>
+          </a>
         </section>
       </main>
       <footer class="footer page__section-footer">
-        <ul class="footer__links">
-          <li><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
-          <li><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
-          <li><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
-          <li><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
-          <li><a class="footer__link footer__link_none-margine" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
-        </ul>
+        <nav>
+          <ul class="footer__links">
+            <li><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+            <li><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+            <li><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+            <li><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+            <li><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+          </ul>
+        </nav>
         <p class="footer__copyright">&copy;&nbsp;2023. Анастасия Галова</p>
       </footer>
     </div>

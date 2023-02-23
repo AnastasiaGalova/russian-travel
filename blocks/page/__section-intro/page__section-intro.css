@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 1024px) {
   .page__section-intro {
-      padding: 0 calc(24px + (48 - 24) * (100vw - 768px)/(1024 - 768));
+    padding: 0 calc(24px + (48 - 24) * (100vw - 768px)/(1024 - 768));
   }
 }
 
@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 768px) {
   .page__section-intro {
-      padding: 0 calc(16px + (24 - 16) * (100vw - 320px)/(768 - 320));
+    padding: 0 calc(16px + (24 - 16) * (100vw - 320px)/(768 - 320));
   }
 }
 
